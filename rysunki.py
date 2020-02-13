@@ -7,30 +7,17 @@ zolw.fillcolor('green')
 zolw.color('green')
 zolw.pensize(3)
 
-for element in lista:
-    if element == 1:
-        zolw.forward(50)
-    elif element == 2:
-        zolw.left(90)
-    elif element == 3:
-        zolw.left(45)
-    elif element == 4:
-        zolw.right(90)
-    elif element == 5:
-        zolw.right(45)
-    elif element == 6:
-        zolw.penup()
-    elif element == 7:
-        zolw.pendown()
-    elif element == 8:
-        zolw.begin_fill()
-    elif element == 9:
-        zolw.end_fill()
-    elif element == 10:
-        zolw.circle(50)
-    elif element == 0:
-        zolw.setpos(-300, -300)
+#przeglądnij listę na dwa sposoby, używając for i while
+# 1 to ruch do przodu o 50 pikseli - forward(50)
+# 2 to skręt w lewo o 90 stopni - left(90)
+# 3 to skręt w lewo o 45 stopni
+# 4 to skręt w prawo o 90 stopni
+# 5 to skręt w prawo o 45 stopni
+# 6 to penup()
+# 7 to pendown()
+# 8 to begin_fill()
+# 9 to end_fill()
+# 10 to rysowanie koła - circle(50)
+# 0 to ustawienie pozycji na -300, -300 czyli setpos(-300, -300)
 
-input()
-    
         
